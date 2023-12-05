@@ -59,6 +59,87 @@ ul {
     left: 100px;
 }
 
-footer {
+/*-----------------footer----------------------*/
+
+footer{
+    background-color:#BAA382 ;
+    color: #0b4d44;
+    height: 20%;
     text-align: center;
+}
+footer img{
+    width: 100px;
+}
+
+.conteneurlogo{
+    width: 100%;
+    text-align: center;
+    display: inline-block;
+}
+.logo{
+    padding: 10px;
+    width: 50px;
+    margin-right: 7px;
+    margin-left: 7px;
+    margin-top: 5px;
+    cursor: pointer;
+    height: 30px;
+    width: 30px;
+    transition: 0.2s;
+}
+.logo:hover{
+    background-color:#E7E6E2;
+    border-radius: 10px;
+}
+.conteneurfooter{
+    margin-left: 100px;
+    display: flex;
+    justify-content:space-between;
+    margin-right: 100px;
+    margin-top: 20px;
+    padding-bottom: 20px;
+    position: relative;
+}
+.contact a{
+    text-decoration: none;
+    color: #0b4d44;
+    border: 0px black solid;
+    border-radius: 8px;
+    position: relative;
+    top: 20px;
+    padding: 5px;
+    transition: 0.2s ease-in;
+}
+.contact{
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+.contact a:hover{
+    background-color:#e7e6e27d;
+    color:#052722;
+
+}
+.adresse{
+    font-size: 20px;
+}
+#copyright{
+    position: relative;
+
+}
+#terms a{
+    position: relative;
+    top: 40px;
+    text-decoration: none;
+    color: #0b4d44;
+    margin-right: 10px;
+}
+
+#logo-footer{
+    position: relative;
+    margin-right: 173px;
+}
+#partner{
+    position: relative;
+    display: flex;
+    align-items: center;
 }
