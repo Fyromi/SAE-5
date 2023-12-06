@@ -1,72 +1,123 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Les commandes</title>
-        <link rel="stylesheet" href="style.css">
-    </head>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hotel Cactus</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="styleChambreSpecial.css">
+    <link rel="icon" href="images/logo_cactus.png">
+    <link rel="stylesheet" href="styleFormulaire.css">
+    
+</head>
+<body>
+    <!--Menu de navigation-->
+    
+    <!--Fin Menu de navigation-->
+    <header>
+        <h1>BOOkING</h1>
+        <hr id="barre_horizontal">
+    </header>
+    <br><br><br><br><br>
 
-    <body>
+    <form action="action=mailto:fleurs@commande.com">
+        <fieldset class="choix">
 
-        <header>
-            <H1>Site pour commander des fleurs</H1>
-        </header>
+            <fieldset class="fleurs">
+                <legend>Option</legend>
+                <input type="checkbox" name="n1"> Free Wi-Fi<br>
+                <input type="checkbox" name="n1"> BreakFirt<br>
+                <input type="checkbox" name="n1"> Cable/Satellite TV<br>
+                <input type="checkbox" name="n1"> Minibar
 
-        <main>
-            <fieldset class="choix">
+            </fieldset>
 
-                <fieldset class="fleurs">
-                    <legend>Variétés de fleurs</legend>
-                    <input type="checkbox" name="n1"> Arlequin<br>
-                    <input type="checkbox" name="n1"> Exotique<br>
-                    <input type="checkbox" name="n1"> Champêtre<br>
-                    <input type="checkbox" name="n1"> Jasmin
+            <fieldset class="bouquets">
+                <legend>Choose your Room</legend>
+                <input type="radio" name="name=n2"/>Simple Room<br>
+                <input type="radio" name="name=n2"/>Special Room<br>
+              <br><br>
+            </fieldset>
+        </fieldset>
 
-                </fieldset>
-
-                <fieldset class="bouquets">
-                    <legend>Type de bouquets</legend>
-                    <input type="radio"/>Bouquet tige<br>
-                    <input type="radio"/>Bouquet bulle<br>
-                    <input type="radio"/>Bouquet séché<br><br>
-                </fieldset>
-            </fieldset> 
-
-            <fieldset class="coordonées">
-
-                <legend>Vos coordonées</legend>
-                <label class="chaps1">Nom</label>
-                <input type="text" placeholder="votre nom" class = "coorINPUT"><br><br>
-                <label class="chaps1">Prenom</label>
-                <input type="text" placeholder="votre prenom" class = "coorINPUT"><br><br>
-                <label class="chaps1">Adress</label>
-                <input type="text" placeholder="votre adresse" class = "coorINPUT"><br>
-
-            </fieldset>  
-
-            <fieldset class="paiement">
-
-                <legend>Moyen de paiement</legend>
-
-                <div class ="cb">
-                    <input type="radio" name="Moyen"/>CB<br>
-                </div>
-
-                <label class = "numCB">Numéro de CB : </label>
-                <input type="text" maxlength="16">
-
-                <br>
-                
-                <input type="radio" name="Moyen"/>Espèce<br>
-                <input type="radio" name="Moyen"/>Chèque<br>
-            
-            </fieldset>  
-
-
-            <form action="mailto:fleurs@commande.com"></form>
-            <button type="submit">Envoyer</button>
-        </main>
         
-    </body>
+
+        <fieldset class="coordonées">
+
+            <legend>Your Contact Details</legend>
+            <label class="chaps1">Name</label>
+            <input type="text" placeholder="Your Name" class = "coorINPUT"><br><br>
+            <label class="chaps1">First name</label>
+            <input type="text" placeholder="Your First Name" class = "coorINPUT"><br><br>
+            <label class="chaps1">Location</label>
+            <input type="text" placeholder="Your Location" class = "coorINPUT"><br>
+
+        </fieldset>  
+
+        <fieldset class="paiement">
+
+            <legend>Payment method</legend>
+
+            <div class ="cb">
+                <input type="radio" name="Moyen"/>CB<br>
+            </div>
+
+            <label class = "numCB">CB Number : </label>
+            <input type="text" maxlength="16">
+
+            <br>
+            
+            <input type="radio" name="Moyen"/>Money<br>
+            <input type="radio" name="Moyen"/>Check<br>
+        
+        </fieldset>  
+
+        <button type="submit">Submit</button>
+    </form>
+    <br><br><br><br><br><br>
+
+
+    <footer>
+        <div class="conteneurlogo">
+            <a href="https://www.facebook.com/"><img class="logo" src="images/logo-facebook.png" alt="logo-facebook"></a>
+            <a href="https://www.instagram.com/"><img class="logo" src="images/logo-instagram.png" alt="logo-insta"></a>
+            <a href="https://www.tiktok.com/fr/"><img class="logo" src="images/logo-tiktok.png" alt="logo-tiktok"></a>
+            <a href="https://fr.linkedin.com/"><img class="logo" src="images/logo-linkedin.png" alt="logo-linkedin"></a>
+            <a href="https://www.tripadvisor.fr/"><img class="logo" src="images/logo-tripadvisor.png" alt="logo-tripadvisor" width="30px"></a>
+        </div>
+        <hr>
+        <div class="conteneurfooter">
+            <div class="adresse">
+                <h3>Adresse</h3>
+                <p>
+                    142 Rue Gabriel Peri, <br>93200, Saint-Denis
+                </p>
+            </div>
+            <div class="contact">
+                <h3>Contact</h3>
+                <p>
+                    +33 1 48 21 17 86
+                </p> 
+                <a id="buttonToForm" href="">Send a form</a>
+            </div>
+        </div>
+        <hr>
+        <div class="conteneurfooter">
+            <div id="copyright">
+                <p>Copyright &copy 2023 - Hotel Le Cactus. All rights reserved</p>
+                <div id="terms">
+                    <a href="termecondition">Terms & Conditions</a>
+                    <a href="termecondition">Privacy Policy</a>
+                    <a href="termecondition">Cookie preferences</a>
+                </div>
+            </div>
+            <a href="index.html"><img id="logo-footer" src="images/logo_cactus.png" alt="logo of site Le Cactus" ></a>
+            <div id="partner">
+                <label for="partner">In partnership with</label> 
+                <img src="images/logo_partner0.png" alt="image logo partnership">
+            </div>
+        </div>
+        
+    </footer>
+</body>
 </html>

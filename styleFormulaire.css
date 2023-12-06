@@ -1,19 +1,22 @@
-html, body{
-    height: 80%;
-    width: 80%;
-}
 main{
     background-color: #eeeeee;
     border : solid red 1px;
     padding-bottom: 1%;
+    text-align: center;
+    
 }
 
 .choix, .coordonées, .paiement{
-    border:  double black;
-    height: 20%;
-    margin: 10px;
+    border:  double #0b4d44 6px;
+    border-radius: 10px;
+    height: 70%;
+    width: 50%;
     text-align: center;
-    background-color: lavender;
+    background-color:  #0b4d44 100%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 100px;
+    margin-bottom: 50px;
 }
 
 .fleurs, .bouquets{
@@ -25,21 +28,19 @@ main{
     border: solid black 1px;
     background-color: #eeeeee;
     background-size: 50%;
-    background-image: url("nenuphar.png");
+    background-image: url("point.png");
+    border-radius: 5px;
 }
 .bouquets{
     margin-left: 5%;
+    height: 80%;
 }
 
 .coordonées{
     display: block;
     text-align: left;
 }
-.coorINPUT{
-    position: absolute;
-    left: 10%;
-    
-}
+
 .paiement{
     text-align: left;
     height: 15%;
@@ -52,9 +53,18 @@ main{
     margin-left: 10%;
 }
 button{
-    margin-left: 2%;
+    width: 10%;
+    height: 50px;
 }
 .choix{
     height: 20%;
 }
-..bouquets
+
+form{
+   text-align: center;
+}
+
+.button:hover{
+
+    color:#0b4d44;
+}
