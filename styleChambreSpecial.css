@@ -17,7 +17,7 @@ header{
 main{
     top: 0;
     margin: 0;
-    height: 80vh;
+    height: 200vh;
     background-color: #E7E6E2;
 }
 p{
@@ -40,5 +40,84 @@ header h1{
     height: 1px;
     background: rgba(255, 255, 255, 0.4);
     bottom: 35px;
+}
+
+/*    Slide des images du main :    */
+
+img{
+    max-width: 100%;
+}
+
+.slider-container{
+    width: 800px;
+    position: relative;
+    margin: auto;
+    height: 500px;
+    overflow: hidden;
+}
+.menu{
+    position: absolute;
+    left: 0;
+    z-index: 10;
+    width: 100%;
+    bottom: 0;
+    text-align: center;
+}
+.menu label {
+    cursor: pointer;
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    background-color: #ccc;
+    border-radius: 50px;
+    margin: 0 0.2em 1em;
+}
+.menu label:hover,.menu label:focus{
+    background: #082B26;
+}
+.slide-input{
+    opacity: 0;
+}
+.slide-img{
+    width: 800px;
+    height: 450px;
+    position: absolute;
+    top: 0;
+    left: 100%;
+    z-index: 10;
+    transition: left 0s 0.75s;
+}
+[id^="slide"]:checked + .slide-img{
+    left: 0;
+    z-index: 100;
+    transition: left 0.65s ease-out;
+}
+
+/* box texte + image */
+#titre-theme{
+    margin: 0;
+    text-align: center;
+    padding-top: 50px;
+}
+section{
+    display: flex;
+    padding-top: 80px;
+    padding-right: 100px;
+    position: relative;
+    height: 500px;
+}
+article p{
+    padding: 100px;
+    text-align: justify;
+    max-width: 500px;
+    font-size: 18px;
+}
+
+#barre_horizontal2{
+    margin-top: 30px;
+    border: none;
+    width: 80%;
+    height: 1px;
+    background: #0d462bb8;
 }
 
