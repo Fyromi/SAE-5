@@ -25,3 +25,15 @@
     text-align: center;
     top: 320px;
 }
+
+/* Chambre simple */
+
+.principal {
+    
+}
+
+.roomsSimple {
+    position: relative;
+    height: 500px;
+    top: 300px;
+}
