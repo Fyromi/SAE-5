@@ -58,7 +58,7 @@ ul {
 
 .logoImg  {
     height: 45px;
-    position: relative;
+    position: fixed;
     top: 10px;
     left: 100px;
 }
