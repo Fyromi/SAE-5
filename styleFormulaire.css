@@ -1,0 +1,60 @@
+html, body{
+    height: 80%;
+    width: 80%;
+}
+main{
+    background-color: #eeeeee;
+    border : solid red 1px;
+    padding-bottom: 1%;
+}
+
+.choix, .coordonées, .paiement{
+    border:  double black;
+    height: 20%;
+    margin: 10px;
+    text-align: center;
+    background-color: lavender;
+}
+
+.fleurs, .bouquets{
+    width: 40%;
+    height: 80%;
+    position: relative;
+    text-align: left;
+    display: inline-block;
+    border: solid black 1px;
+    background-color: #eeeeee;
+    background-size: 50%;
+    background-image: url("nenuphar.png");
+}
+.bouquets{
+    margin-left: 5%;
+}
+
+.coordonées{
+    display: block;
+    text-align: left;
+}
+.coorINPUT{
+    position: absolute;
+    left: 10%;
+    
+}
+.paiement{
+    text-align: left;
+    height: 15%;
+}
+
+.cb{
+    display: inline-block;
+}
+.numCB{
+    margin-left: 10%;
+}
+button{
+    margin-left: 2%;
+}
+.choix{
+    height: 20%;
+}
+..bouquets

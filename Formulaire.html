@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Les commandes</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+
+    <body>
+
+        <header>
+            <H1>Site pour commander des fleurs</H1>
+        </header>
+
+        <main>
+            <fieldset class="choix">
+
+                <fieldset class="fleurs">
+                    <legend>Variétés de fleurs</legend>
+                    <input type="checkbox" name="n1"> Arlequin<br>
+                    <input type="checkbox" name="n1"> Exotique<br>
+                    <input type="checkbox" name="n1"> Champêtre<br>
+                    <input type="checkbox" name="n1"> Jasmin
+
+                </fieldset>
+
+                <fieldset class="bouquets">
+                    <legend>Type de bouquets</legend>
+                    <input type="radio"/>Bouquet tige<br>
+                    <input type="radio"/>Bouquet bulle<br>
+                    <input type="radio"/>Bouquet séché<br><br>
+                </fieldset>
+            </fieldset> 
+
+            <fieldset class="coordonées">
+
+                <legend>Vos coordonées</legend>
+                <label class="chaps1">Nom</label>
+                <input type="text" placeholder="votre nom" class = "coorINPUT"><br><br>
+                <label class="chaps1">Prenom</label>
+                <input type="text" placeholder="votre prenom" class = "coorINPUT"><br><br>
+                <label class="chaps1">Adress</label>
+                <input type="text" placeholder="votre adresse" class = "coorINPUT"><br>
+
+            </fieldset>  
+
+            <fieldset class="paiement">
+
+                <legend>Moyen de paiement</legend>
+
+                <div class ="cb">
+                    <input type="radio" name="Moyen"/>CB<br>
+                </div>
+
+                <label class = "numCB">Numéro de CB : </label>
+                <input type="text" maxlength="16">
+
+                <br>
+                
+                <input type="radio" name="Moyen"/>Espèce<br>
+                <input type="radio" name="Moyen"/>Chèque<br>
+            
+            </fieldset>  
+
+
+            <form action="mailto:fleurs@commande.com"></form>
+            <button type="submit">Envoyer</button>
+        </main>
+        
+    </body>
+</html>
