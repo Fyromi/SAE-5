@@ -2,7 +2,7 @@
 .imgHotel {
     position:absolute;
     height: 650px;
-    width: 2000px;
+    width: 100%;
     filter: brightness(74%);
 }
 
@@ -13,7 +13,7 @@
     color: #FFFFFF;
     width: 100%;
     text-align: center;
-    height: 650px;
+    height: 50%;
     top: 200px;
 }
 .text {
@@ -23,6 +23,5 @@
     color: #FFFFFF;
     width: 100%;
     text-align: center;
-    height: 650px;
     top: 320px;
 }
