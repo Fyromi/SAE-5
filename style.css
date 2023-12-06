@@ -16,6 +16,7 @@ main{
 }
 
 .navBarre{
+    z-index: 1;
     text-align: center;
     background-color: #fff;
     height: 60px;
