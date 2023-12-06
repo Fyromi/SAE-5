@@ -11,56 +11,45 @@ main{
     background-color: #E7E6E2;
 }
 
-ul {
-    margin: 0;
-}
-
 .title {
     text-align: center;
 }
 
-.navBarre .nav a{
-
-    text-decoration: none;
-
-}
-
-.nav {
-    text-align: right;
+.navBarre{
+    text-align: center;
     background-color: #fff;
-    height: 8%;
+    height: 60px;
     position: fixed;
     width: 100%;
     top: 0;
-
+    justify-content: center;
+    justify-content: space-evenly;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-content: center;
+    align-items: center;
 }
 
-.nav a {
+.navBarre a {
+    text-decoration: none;
     font-size: 20px;
-    margin: 10%;
     position: relative;
-    top: 33%;
     color: black;
-    padding: 0.7%;
     border: none;
+    padding: 15px;
     text-align: center;
-    opacity: 0.6;
     transition: 0.3s;
-
-
 }
 
-.nav a:hover {
-    background-color: #E7E6E2;
-    
+.navBarre a:hover {
+    background-color: #e7e6e27a;
+    color: #BAA382;
 }
 
-
-.logoImg  {
+#logoImg  {
     height: 45px;
     position: relative;
-    top: 10px;
-    left: 100px;
 }
 
 /*-----------------footer----------------------*/
