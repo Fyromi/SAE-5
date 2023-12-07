@@ -4,11 +4,15 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="stylesPageAccueil.css">
+    <link rel="icon" href="img/logo.png" />
+
     <title>Le Cactus - Home</title>
 </head>
 <body>
 
     <!--Menu de navigation-->
+
     <nav class="navBarre">
         <a href="index.html"><img src="img/logo.png" alt="logo cactus" id="logoImg"></a>
         <a class="nava" href="index.html">Home</a>
@@ -16,17 +20,67 @@
         <a class="nava" href="Formulaire.html">Book</a>
         <a class="nava" href="#">Contact</a>
     </nav>
+    
     <!--Fin Menu de navigation-->
 
+    <header>
+        <img src="img/hotel.jpg" alt="" class="imgHotel">
+        <h2 class="titlePres">Welcome to Le Cactus</h2>
+        <p class="text">The Best Hotel in Seine-Saint-Denis</p>
+    </header>
+
     <main>
+        <h1 id="titre-theme" class="booking-title">Discover Luxury, Reserve Your Experience !</h1>
+        
+        <section class="box-pair">
+            <article>
+                <h1 class="SpeRooms">Special Room</h1>
+                <p class="SpeRoomsTxt">
+                    The special room is a room on the theme of climbing. You can book now !
+                </p>
+                <div class="classbutton">
+                    <a href="chambreSpecial.html"><button>More</button></a>
+                    <a href="Formulaire.html"></a><button>Book now</button></a>
+                </div>
+            </article>
+            <img src="img/Hoteldelaplage203.jpeg" alt="" class="imgRoomSpecial">
+        </section>
 
-        <br>
-        <br>
+        <hr id="barre_horizontal2">
 
-        <h1 class="title">Hotel - Le Cactus</h1>
+        <section class="box-impair">
+            <img src="img/Hoteldelaplage203.jpeg" alt="" class="imgRoomSimple">
+            <article>
+                <h1 class="SpeRooms">Simple Room</h1>
+                <p class="SpeRoomsTxt">
+                    26 rooms spread over 4 floors. Each bedroom has a sink and a wardrobe. Equipment: refrigerator, four microwaves, television. Rooms with private shower room available.
+                </p>
+                <div class="classbutton">
+                    <a href="chambreSpecial.html"><button>More</button></a>
+                    <a href="Formulaire.html"></a><button>Book now</button></a>
+                </div>
+            </article>
+        </section>
 
+        <hr id="barre_horizontal2">
+        <h1 class="activities-title">Discover Exciting Activities Around Saint-Denis</h1>
+        
+        <section class="box-pair">
+            <img src="images/hike.jpg" alt="Activity 1" class="imgActivity">
+            <div class="activity-info">
+                <h2>Hiking in Montagnes Park</h2>
+                <p>Experience breathtaking views and nature trails in Montagnes Park, located 15 km from Saint-Denis.</p>
+            </div>
+        </section>
+
+        <section class="box-pair">
+            <img src="images/water.jpg" alt="Activity 2" class="imgActivity2">
+            <div class="activity-info">
+                <h2>Water Adventures at Riverview Marina</h2>
+                <p>Enjoy a variety of water activities at Riverview Marina, a short 12 km drive from Saint-Denis.</p>
+            </div>
+        </section>
     </main>
-
 
     <footer>
         <div class="conteneurlogo">
@@ -68,13 +122,6 @@
                 <img src="images/logo_partner0.png" alt="image logo partnership">
             </div>
         </div>
-        
     </footer>
-
-    
-
-
 </body>
-
-
-</html
+</html>

@@ -1,0 +1,181 @@
+
+.imgHotel {
+    position: absolute;
+    height: 650px;
+    width: 100%;
+    filter: brightness(74%);
+}
+main{
+    top: 0;
+    margin: 0;
+    height: 2800px;
+    background-color: #E7E6E2;
+}
+
+header{
+    top: 0;
+    height: 650px;
+    background-color: #082B26;
+    position: relative;
+}
+.titlePres {
+    position: absolute;
+    font-family: Gabriola, "Gentium Basic", Georgia;
+    font-size: 70px;
+    color: #FFFFFF;
+    width: 100%;
+    text-align: center;
+    height: 50%;
+    top: 200px;
+}
+.text {
+    position: absolute;
+    font-family: Gabriola, "Gentium Basic", Georgia;
+    font-size: 20px;
+    color: #FFFFFF;
+    width: 100%;
+    text-align: center;
+    top: 320px;
+}
+
+.booking-title {
+    font-size: 40px;
+    color: #0b4d44;
+    text-align: center;
+    margin-top: 40px;
+    font-weight: bold;
+}
+
+/* Chambre simple */
+
+.principal {
+    position: absolute;
+}
+
+.roomsSimple {
+    position: relative;
+    height: 300px;
+    top: 600px;
+}
+
+.roomsImg {
+    position: relative;
+    height: 250px;
+    top: 500px;
+}
+
+/*    Slide des images du main :    */
+
+img{
+    max-width: 100%;
+}
+
+/* box texte + image */
+#titre-theme{
+    margin: 0;
+    text-align: center;
+    padding-top: 50px;
+}
+.box-pair{
+    display: flex;
+    padding-top: 80px;
+    padding-right: 100px;
+    position: relative;
+    height: 500px;
+}
+article{
+    width: 100%;
+}
+article p{
+    text-align: justify;
+    max-width: 500px;
+    font-size: 18px;
+    margin-left: 130px;
+}
+
+#barre_horizontal2{
+    margin-top: 30px;
+    border: none;
+    width: 80%;
+    height: 1px;
+    background: black;
+}
+.box-impair{
+    display: flex;
+    padding-top: 80px;
+    padding-left: 100px;
+    position: relative;
+    height: 500px;
+}
+
+
+.SpeRooms {
+    font-family: Gabriola, "Gentium Basic", Georgia;
+    font-size: 60px;
+    text-align: center;
+    margin-top: 40px;
+    color: #0b4d44;
+}
+
+.SpeRoomsTxt {
+    font-size: 20px;
+    text-align: justify;
+    margin-top: 20px;
+    color: #555; 
+}
+
+button {
+    background-color: #0b4d44;
+    color: #E7E6E2;
+    border: none;
+    padding: 15px 30px;
+    font-size: 18px;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out;
+}
+
+button:hover {
+    background-color: #e7e6e27d;
+    color: #052722;
+    border: 2px #0b4d44 solid ;
+}
+.classbutton{
+    margin-top: 40px;
+    text-align: center;
+}
+
+/* Activité !*/
+
+.activities-title {
+    text-align: center;
+    font-size: 36px;
+    color: #0b4d44;
+    margin-top: 60px;
+}
+
+.activity-info h2 {
+    font-size: 30px;
+    color: #0b4d44;
+}
+
+.activity-info p {
+    font-size: 20px;
+    color: #555;
+}
+
+.imgActivity{
+    margin-left: 100px;
+    margin-right: 100px;
+    max-width: 600px;
+}
+.imgActivity2{
+    margin-left: 100px;
+    margin-right: 100px;
+    max-width: 800px;
+}
+.activity-info{
+    align-self: center;
+    font-size: 40px;
+    text-align: center;
+
+}
