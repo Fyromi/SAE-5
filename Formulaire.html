@@ -5,77 +5,69 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Hotel Cactus</title>
     <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="styleChambreSpecial.css">
     <link rel="icon" href="images/logo_cactus.png">
     <link rel="stylesheet" href="styleFormulaire.css">
     
 </head>
 <body>
     <!--Menu de navigation-->
-    
+    <nav class="navBarre">
+        <a href="index.html"><img src="img/logo.png" alt="logo cactus" id="logoImg"></a>
+        <a class="nava" href="index.html">Home</a>
+        <a class="nava" href="#">Rooms</a>
+        <a class="nava" href="Formulaire.html">Book</a>
+        <a class="nava" href="#">Contact</a>
+    </nav>
     <!--Fin Menu de navigation-->
-    <header>
-        <h1>BOOKING</h1>
-        <hr id="barre_horizontal">
-    </header>
-    <br><br><br><br><br>
+    <main>
+        <header>
+            <h1>BOOKING</h1>
+            <hr id="barre_horizontal">
+        </header>
 
-    <form action="action=mailto:fleurs@commande.com">
-        <fieldset class="choix">
-
-            <fieldset class="fleurs">
-                <legend>Option</legend>
-                <input type="checkbox" name="n1"> Free Wi-Fi<br>
-                <input type="checkbox" name="n1"> BreakFirt<br>
-                <input type="checkbox" name="n1"> Cable/Satellite TV<br>
-                <input type="checkbox" name="n1"> Minibar
-
+        <form action="mailto:accueil@hotelrestaurant-lepalmier.fr">
+            <fieldset class="choix">
+                <fieldset class="option">
+                    <legend>Option</legend>
+                    <input type="checkbox" name="n1"> Free Wi-Fi<br>
+                    <input type="checkbox" name="n1"> BreakFirt<br>
+                    <input type="checkbox" name="n1"> Cable/Satellite TV<br>
+                    <input type="checkbox" name="n1"> Minibar
+                </fieldset>
+                <fieldset class="room">
+                    <legend>Choose your Room</legend>
+                    <input type="radio" name="name=n2"/>Simple Room<br>
+                    <input type="radio" name="name=n2"/>Special Room<br>
+                    <br><br>
+                </fieldset>
             </fieldset>
 
-            <fieldset class="bouquets">
-                <legend>Choose your Room</legend>
-                <input type="radio" name="name=n2"/>Simple Room<br>
-                <input type="radio" name="name=n2"/>Special Room<br>
-              <br><br>
-            </fieldset>
-        </fieldset>
+            <fieldset class="coordonées">
+                <legend>Your Contact Details</legend>
+                <label class="chaps1">Name :</label>
+                <input type="text" placeholder="Your Name" id="coorINPUT1"><br><br>
+                <label class="chaps1">First name :</label>
+                <input type="text" placeholder="Your First Name" id="coorINPUT2"><br><br>
+                <label class="chaps1">Location :</label>
+                <input type="text" placeholder="Your Location" id="coorINPUT3"><br><br>
+                <label class="chaps1">Date :</label>
+                <input type="date" placeholder="Your Location" id="coorINPUT4"><br><br>
+            </fieldset>  
 
-        
+            <fieldset class="paiement">
+                <legend>Payment method</legend>
+                <div class ="cb">
+                    <input type="radio" name="Moyen"/>CB<br>
+                    <label class = "numCB">CB Number : </label>
+                    <input id="cb-input" type="text" maxlength="16">
+                </div>
+                    <input type="radio" name="Moyen"/>Money<br>
+                    <input type="radio" name="Moyen"/>Check<br>
+            </fieldset>  
 
-        <fieldset class="coordonées">
-
-            <legend>Your Contact Details</legend>
-            <label class="chaps1">Name</label>
-            <input type="text" placeholder="Your Name" class = "coorINPUT"><br><br>
-            <label class="chaps1">First name</label>
-            <input type="text" placeholder="Your First Name" class = "coorINPUT"><br><br>
-            <label class="chaps1">Location</label>
-            <input type="text" placeholder="Your Location" class = "coorINPUT"><br>
-
-        </fieldset>  
-
-        <fieldset class="paiement">
-
-            <legend>Payment method</legend>
-
-            <div class ="cb">
-                <input type="radio" name="Moyen"/>CB<br>
-            </div>
-
-            <label class = "numCB">CB Number : </label>
-            <input type="text" maxlength="16">
-
-            <br>
-            
-            <input type="radio" name="Moyen"/>Money<br>
-            <input type="radio" name="Moyen"/>Check<br>
-        
-        </fieldset>  
-
-        <button type="submit">Submit</button>
-    </form>
-    <br><br><br><br><br><br>
-
+            <button id="button-submit" type="submit">Submit</button>
+        </form>
+    </main>
 
     <footer>
         <div class="conteneurlogo">
@@ -117,7 +109,6 @@
                 <img src="images/logo_partner0.png" alt="image logo partnership">
             </div>
         </div>
-        
     </footer>
 </body>
 </html>
