@@ -1,6 +1,6 @@
 
 .imgHotel {
-    position:absolute;
+    position: absolute;
     height: 650px;
     width: 100%;
     filter: brightness(74%);
@@ -29,6 +29,18 @@ main{
     width: 100%;
     text-align: center;
     top: 320px;
+}
+
+/* Chambre simple */
+
+.principal {
+    position: absolute;
+}
+
+.roomsSimple {
+    position: relative;
+    height: 300px;
+    top: 600px;
 }
 
 .roomsImg {

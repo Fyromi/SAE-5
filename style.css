@@ -2,13 +2,14 @@
 body{
     font-family: 'Lora', serif;
     margin: 0;
+    background-color: #E7E6E2;
 }
 
 main{
     top: 0;
     margin: 0;
     height: 80vh;
-    background-color: #E7E6E2;
+    
 }
 
 .title {
