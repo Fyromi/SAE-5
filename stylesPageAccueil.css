@@ -12,8 +12,11 @@ main{
     background-color: #E7E6E2;
 }
 
-.cont {
-    height: 80vh;
+header{
+    top: 0;
+    height: 650px;
+    background-color: #082B26;
+    position: relative;
 }
 .titlePres {
     position: absolute;
@@ -43,8 +46,6 @@ main{
     font-weight: bold;
 }
 
-
-
 /* Chambre simple */
 
 .principal {
@@ -63,56 +64,10 @@ main{
     top: 500px;
 }
 
-
 /*    Slide des images du main :    */
 
 img{
     max-width: 100%;
-}
-
-.slider-container{
-    width: 700px;
-    position: relative;
-    margin: auto;
-    height: 500px;
-    overflow: hidden;
-}
-.menu{
-    position: absolute;
-    left: 0;
-    z-index: 10;
-    width: 100%;
-    bottom: 0;
-    text-align: center;
-}
-.menu label {
-    cursor: pointer;
-    display: inline-block;
-    width: 10px;
-    height: 10px;
-    background-color: #ccc;
-    border-radius: 50px;
-    margin: 0 0.2em 1em;
-}
-.menu label:hover,.menu label:focus{
-    background: #082B26;
-}
-.slide-input{
-    opacity: 0;
-}
-.slide-img{
-    width: 800px;
-    height: 450px;
-    position: absolute;
-    top: 0;
-    left: 100%;
-    z-index: 10;
-    transition: left 0s 0.75s;
-}
-[id^="slide"]:checked + .slide-img{
-    left: 0;
-    z-index: 100;
-    transition: left 0.65s ease-out;
 }
 
 /* box texte + image */
@@ -185,8 +140,6 @@ article p{
     margin-top: 20px;
     color: #555; 
 }
-
-
 
 button {
     background-color: #0b4d44;
