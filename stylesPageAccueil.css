@@ -5,7 +5,12 @@
     width: 100%;
     filter: brightness(74%);
 }
-
+main{
+    top: 0;
+    margin: 0;
+    height: 150vh;
+    background-color: #E7E6E2;
+}
 .titlePres {
     position: absolute;
     font-family: Gabriola, "Gentium Basic", Georgia;
@@ -24,4 +29,10 @@
     width: 100%;
     text-align: center;
     top: 320px;
+}
+
+.roomsImg {
+    position: relative;
+    height: 250px;
+    top: 500px;
 }
