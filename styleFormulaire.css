@@ -1,3 +1,6 @@
+body{
+    background-color: #E7E6E2;
+}
 header{
     top: 0;
     height: 510px;
@@ -25,13 +28,21 @@ header h1{
 main{
     top: 0;
     margin: 0;
-    height: 180vh;
+    height: 1350px;
     background-color: #E7E6E2;
-    
+    text-align: center;
+}
+
+form{
+    background-color: white;
+    border: none;
+    border-radius: 10px;
+    box-shadow: black;
+    margin: 5% 10% 25% 15%;
+    padding: 20px;
 }
 
 .choix{
-    border:  double #0b4d44 6px;
     border-radius: 10px;
     height: 130px;
     width: 50%;
@@ -43,7 +54,6 @@ main{
     margin-bottom: 30px;
 }
 .coordonées{
-    border:  double #0b4d44 6px;
     border-radius: 10px;
     height: 168px;
     width: 50%;
@@ -54,7 +64,6 @@ main{
     margin-bottom: 30px;
 }
 .paiement{
-    border:  double #0b4d44 6px;
     border-radius: 10px;
     height: 100px;
     width: 50%;
@@ -120,9 +129,10 @@ main{
 }
 #button-submit{
     padding: 15px 35px 15px 35px;
-    background-color:#E7E6E2;
+    background-color:#0b4d44;
     transition: 0.3s;
     font-size: 18px;
+    
     border-radius: 25px;
 }
 #button-submit:hover{
@@ -136,4 +146,8 @@ form{
 
 .button:hover{
     color:#0b4d44;
+}
+
+button{
+    color: #eeeeee;
 }
