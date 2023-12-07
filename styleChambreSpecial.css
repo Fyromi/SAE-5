@@ -127,6 +127,15 @@ article p{
     position: relative;
     height: 500px;
 }
+
+#Detext{
+    padding-top: 60px;
+}
+
+#Tetext{
+padding-top: 60px;
+}
+
 .button-reserve{
     width: 100%;
     text-align: center;
