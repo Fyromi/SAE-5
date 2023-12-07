@@ -8,7 +8,7 @@
 main{
     top: 0;
     margin: 0;
-    height: 300vh;
+    height: 2800px;
     background-color: #E7E6E2;
 }
 
@@ -83,11 +83,14 @@ img{
     position: relative;
     height: 500px;
 }
+article{
+    width: 100%;
+}
 article p{
-    padding: 100px;
     text-align: justify;
     max-width: 500px;
     font-size: 18px;
+    margin-left: 130px;
 }
 
 #barre_horizontal2{
@@ -104,38 +107,18 @@ article p{
     position: relative;
     height: 500px;
 }
-.button-reserve{
-    width: 100%;
-    text-align: center;
-    margin-top: 20px;
-}
-.button-reserve a{
-    font-size: 30px;
-    text-decoration: none;
-    color: #0b4d44;
-    border: 0px black solid;
-    border-radius: 8px;
-    position: relative;
-    top: 20px;
-    padding: 5px;
-    transition: 0.2s ease-in;
-}
-.button-reserve a:hover{
-    background-color:#e7e6e27d;
-    color:#052722;
-}
 
 
 .SpeRooms {
     font-family: Gabriola, "Gentium Basic", Georgia;
-    font-size: 40px;
+    font-size: 60px;
     text-align: center;
     margin-top: 40px;
     color: #0b4d44;
 }
 
 .SpeRoomsTxt {
-    font-size: 18px;
+    font-size: 20px;
     text-align: justify;
     margin-top: 20px;
     color: #555; 
@@ -147,7 +130,6 @@ button {
     border: none;
     padding: 15px 30px;
     font-size: 18px;
-    margin-left: 170px;
     cursor: pointer;
     transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out;
 }
@@ -155,41 +137,12 @@ button {
 button:hover {
     background-color: #e7e6e27d;
     color: #052722;
+    border: 2px #0b4d44 solid ;
 }
-
-button.book-now {
-    background-color: #e7e6e27d;
-    color: #052722;
-    margin: 20px auto;
-}
-
-button.book-now:hover {
-    background-color: #0b4d44;
-    color: #E7E6E2;
-}
-
-
-.imgRoomSpecial {
-    position: absolute;
-    height: 300px;
-    top: 200px;
-    right: 300px;
-}
-
-.imgRoomSimple {
-    position: absolute;
-    height: 300px;
-    top: 1600px;
-    left: 300px;
-}
-
-.box-simple {
-    display: flex;
-    flex-direction: row-reverse; 
-    align-items: center;
+.classbutton{
     margin-top: 40px;
+    text-align: center;
 }
-
 
 /* Activité !*/
 
@@ -200,73 +153,29 @@ button.book-now:hover {
     margin-top: 60px;
 }
 
-.activity {
-    display: flex;
-    margin-top: 40px;
-}
-
-.activity img {
-    max-width: 100%;
-    height: auto;
-    border-radius: 8px;
-}
-
-.activity-info {
-    margin-left: 20px;
-}
-
-.activity h2 {
-    font-size: 24px;
+.activity-info h2 {
+    font-size: 30px;
     color: #0b4d44;
 }
 
-.activity p {
-    font-size: 18px;
+.activity-info p {
+    font-size: 20px;
     color: #555;
 }
 
-.activity {
-    display: flex;
-    justify-content: space-between;
-    margin-top: 40px;
+.imgActivity{
+    margin-left: 100px;
+    margin-right: 100px;
+    max-width: 600px;
 }
-
-.activity img {
-    max-width: 40%;
-    height: auto;
-    border-radius: 8px;
+.imgActivity2{
+    margin-left: 100px;
+    margin-right: 100px;
+    max-width: 800px;
 }
+.activity-info{
+    align-self: center;
+    font-size: 40px;
+    text-align: center;
 
-.activity {
-    display: flex;
-    justify-content: flex-start;
-    margin-top: 40px;
 }
-
-.activity img {
-    max-width: 40%;
-    height: auto;
-    border-radius: 8px;
-    margin-right: 20px;
-}
-
-.activity-info {
-    max-width: 55%;
-}
-
-.activity-title {
-    font-size: 24px;
-    color: #0b4d44;
-    margin-bottom: 10px;
-}
-
-.activity-description {
-    font-size: 18px;
-    color: #555;
-}
-
-.imgActivity  {
-    position: relative;
-    left: 20px;
-}
-
