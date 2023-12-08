@@ -19,7 +19,7 @@ header{
 main{
     top: 0;
     margin: 0;
-    height: 80vh;
+    height: 1900px;
     background-color: #E7E6E2;
 }
 p{
@@ -44,75 +44,87 @@ header h1{
     bottom: 35px;
 }
 
-.image1{
-    display: inline-block;
-    position: absolute;
-    top:75%;
-    left: 45%;
-    height: 60%;
-    margin-top: 150px;
-    margin-left: 10%;
-}
-
-.description{
-    position: relative;
-    font-size: large;
-    text-align: justify;
-    top:85%;
-    left: 5%;
-    width: 40%;
-    margin-top: 150px;
-    margin-bottom: 150px;
-}
-
-ul{
-    margin-top: 10%;
-    text-align: none;
-}
-
-
-.block{
+/* box texte + image */
+#titre-theme{
+    margin: 0;
     text-align: center;
-    margin-top: 50px;
-    vertical-align : middle;
+    padding-top: 50px;
 }
-
-.DeuxiemeText{
-    display: inline-block;
-    margin-top: 50px;
-    width: 40%;
+.box-pair{
+    display: flex;
+    padding-top: 80px;
+    padding-left: 100px;
     position: relative;
-    bottom: 100px;
+    height: 500px;
 }
-
-.DeuxiemeImage{
-    display: inline-block;
-    margin-top: 50px;
-    margin-left: 100px;
-    margin-top: 100px;
-    margin-right: 100px;
-    top: 60px;
-}
-
-.Block3{
-    text-align: center;
-    margin-top: 50px;
+article p{
+    padding: 150px 100px 0px 100px;
     text-align: justify;
-    margin-left: 60px;
+    max-width: 500px;
+    font-size: 20px;
 }
 
-.Texttkt{
+#barre_horizontal2{
+    margin-top: 30px;
+    border: none;
+    width: 80%;
+    height: 1px;
+    background: #0d462bb8;
+}
+.box-impair{
+    display: flex;
+    padding-top: 80px;
+    padding-left: 100px;
     position: relative;
-    display: inline-block;
-    margin-top: 50px;
-    width: 30%;
-    bottom: 100px;
+    height: 500px;
 }
 
-.image3{
-    display: inline-block;
-    margin-top: 50px;
-    margin: 100px;
-    margin-left: 50px;
+#Detext{
+    padding-top: 60px;
+}
+
+#Tetext{
+padding-top: 60px;
+}
+
+.button-reserve{
+    width: 100%;
+    text-align: center;
+}
+.button-reserve a{
+    background-color: #BAA382;
+    text-decoration: none;
+    cursor: pointer;
+    color: black;
+    transition: 0.3s;
+    padding: 5px 10px 5px 10px;
+    border-radius: 10px;
+    border: 2px rgb(92, 63, 21) solid;
+    font-size: 30px;
+}
+.button-reserve a:hover{
+   background-color: #0b4d44;
+    color: white ;
+    border: 1px #0b4d44 solid;
+}
+#button-book-now{
+    background-color: #BAA382;
+    text-decoration: none;
+    cursor: pointer;
+    color: black;
+    transition: 0.3s;
+    padding: 5px 10px 5px 10px;
+    border-radius: 10px;
+    border: 2px rgb(92, 63, 21) solid;
+}
+#button-book-now:hover{
+    background-color: #0b4d44;
+    color: white ;
+    border: 1px #0b4d44 solid;
+
+}
+article ul{
+    margin-left: 30%;
+    font-size: 20px;
 }
 
