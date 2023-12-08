@@ -1,43 +1,33 @@
-
-.imgHotel {
-    position: absolute;
-    height: 650px;
+header{
+    top: 0;
+    height: 510px;
+    background-color: #082B26;
+    position: relative;
+}
+header h1{
+    margin: 0;
+    color: aliceblue;
+    text-align: center;
+    justify-content: center;
+    font-size:60px;
+    display: flex;
+    align-items: center;
+    height: 100%;
+}
+#barre_horizontal{
+    border: none;
     width: 100%;
-    filter: brightness(74%);
+    position: absolute;
+    height: 1px;
+    background: rgba(255, 255, 255, 0.4);
+    bottom: 35px;
 }
 main{
     top: 0;
     margin: 0;
-    height: 2800px;
+    height: 1400px;
     background-color: #E7E6E2;
 }
-
-header{
-    top: 0;
-    height: 650px;
-    background-color: #082B26;
-    position: relative;
-}
-.titlePres {
-    position: absolute;
-    font-family: Gabriola, "Gentium Basic", Georgia;
-    font-size: 70px;
-    color: #FFFFFF;
-    width: 100%;
-    text-align: center;
-    height: 50%;
-    top: 200px;
-}
-.text {
-    position: absolute;
-    font-family: Gabriola, "Gentium Basic", Georgia;
-    font-size: 20px;
-    color: #FFFFFF;
-    width: 100%;
-    text-align: center;
-    top: 320px;
-}
-
 .booking-title {
     font-size: 40px;
     color: #0b4d44;
@@ -45,7 +35,6 @@ header{
     margin-top: 40px;
     font-weight: bold;
 }
-
 /* Chambre simple */
 
 .principal {
@@ -63,7 +52,6 @@ header{
     height: 250px;
     top: 500px;
 }
-
 /*    Slide des images du main :    */
 
 img{
@@ -85,6 +73,10 @@ img{
 }
 article{
     width: 100%;
+}
+article p{
+    text-align: justify;
+    font-size: 18px;
 }
 
 #barre_horizontal2{
