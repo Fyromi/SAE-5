@@ -17,7 +17,7 @@ header{
 main{
     top: 0;
     margin: 0;
-    height: 292vh;
+    height: 2080px;
     background-color: #E7E6E2;
 }
 p{
@@ -139,21 +139,37 @@ padding-top: 60px;
 .button-reserve{
     width: 100%;
     text-align: center;
-    margin-top: 20px;
 }
 .button-reserve a{
-    font-size: 30px;
+    background-color: #BAA382;
     text-decoration: none;
-    color: #0b4d44;
-    border: 0px black solid;
-    border-radius: 8px;
-    position: relative;
-    top: 20px;
-    padding: 5px;
-    transition: 0.2s ease-in;
+    cursor: pointer;
+    color: black;
+    transition: 0.3s;
+    padding: 5px 10px 5px 10px;
+    border-radius: 10px;
+    border: 2px rgb(92, 63, 21) solid;
+    font-size: 30px;
 }
 .button-reserve a:hover{
-    background-color:#e7e6e27d;
-    color:#052722;
+   background-color: #0b4d44;
+    color: white ;
+    border: 1px #0b4d44 solid;
+}
+#button-book-now{
+    background-color: #BAA382;
+    text-decoration: none;
+    cursor: pointer;
+    color: black;
+    transition: 0.3s;
+    padding: 5px 10px 5px 10px;
+    border-radius: 10px;
+    border: 2px rgb(92, 63, 21) solid;
+}
+#button-book-now:hover{
+    background-color: #0b4d44;
+    color: white ;
+    border: 1px #0b4d44 solid;
+
 }
 

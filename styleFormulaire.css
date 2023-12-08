@@ -136,8 +136,9 @@ form{
     border-radius: 25px;
 }
 #button-submit:hover{
-    color: white;
-    background-color: #BAA382;
+    background-color: #e7e6e27d;
+    color: #052722;
+    border: 2px #0b4d44 solid ;
 }
 
 form{

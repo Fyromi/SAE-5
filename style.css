@@ -32,6 +32,7 @@ main{
     flex-wrap: nowrap;
     align-content: center;
     align-items: center;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.403);
 }
 
 .navBarre a {
