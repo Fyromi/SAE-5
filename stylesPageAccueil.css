@@ -132,6 +132,7 @@ button {
     font-size: 18px;
     cursor: pointer;
     transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out;
+    border: 2px #0b4d44 solid ;
 }
 
 button:hover {
